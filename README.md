@@ -629,9 +629,9 @@ if [ ! -f $HOME/.flag ]; then
     sudo systemctl start mariadb
 
     # Creación de la base de datos y usuario para wordpress
-    echo "=========================================="
+    echo "==================================================="
     echo "Creando la base de datos y el usuario de wordpress."
-    echo "=========================================="
+    echo "==================================================="
     sleep 1
     sudo mysql -u root -e "CREATE DATABASE wp_db;"
     sudo mysql -u root -e "CREATE USER 'wp_usuario'@'192.168.20.%' IDENTIFIED BY 'wp1234';"
