@@ -579,6 +579,9 @@ if [ ! -f $HOME/.flag ]; then
     sudo systemctl start mariadb
 fi
 
+sudo galera_new_cluster
+sudo systemctl start mariadb
+
 # Denegar el acceso a internet
 sudo ip route del default
 ```
@@ -640,6 +643,8 @@ if [ ! -f $HOME/.flag ]; then
 
 fi
 
+sudo systemctl start mariadb
+
 # Denegar el acceso a internet
 sudo ip route del default
 
@@ -652,5 +657,6 @@ sleep 5
 # Screencash.
 
 [https://youtu.be/_zKyMd5cQ-g](https://youtu.be/_zKyMd5cQ-g)
+[https://youtu.be/-70lrL9wM5M](https://youtu.be/-70lrL9wM5M)
 
 > El micrófono no dá para mucho, se recomienda usar cascos.
