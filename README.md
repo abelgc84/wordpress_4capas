@@ -651,32 +651,6 @@ sleep 5
 
 # Screencash.
 
+[https://youtu.be/_zKyMd5cQ-g](https://youtu.be/_zKyMd5cQ-g)
 
-
-
-Habrá que hacer una mínima personalización de wordpress: en el aula virtual hay algún material que hace referencia a esto.
-
-Se entregará:
-
-Enlace a repostorio GitHub con el proyecto, que contedrá.
-Documento técnico Readme.md.
-Fichero vagranfile.
-Ficheros de provisionamiento.
-Screencash visualizando el funcionamiento de la aplicación.
-Requisitos IMPRESCINDIBLES para la entrega:
-
-Documento técnico. Contendrá:
-Índice.
-Introducción, explicando que se va a realizar y sobre qué infraestructura, explicando el direccionamiento IP utilizado.
-Explicación paso a paso de todas las instalaciones y configuraciones a realizar, incluyendo imágenes y código cuando sea necesario.
-Imprescindible: No puede contener faltas de ortografía y se debe cuidar la redacción.
-Screencash: un solo vídeo en el que se grabará la pantalla realizando las siguientes acciones, en el mismo orden:
-Mostrar estado de las máquinas: vagrant status.
-Ping cada máquina a todas las demás.
-Sistemas de archivos montados en los servidores web: df -h en cada servidor web.
-Acceso a servidor MariaDB desde las máquinas serverweb1 y serverweb2.
-Acceso a Wordpress desde la máquina anfitriona (Windows) y el puerto mapeado.
-Mostrar el fichero /var/log/nginx/access.log en el balanceador de carga.
-Mostrar el fichero /var/log/nginx/access.log en los servidores web.
-Para el servidor web serverweb1 y volver a acceder a wordpress desde la máquina anfitriona.
-Mostrar el fichero /var/log/nginx/access.log en los servidores web.
+> El micrófono no dá para mucho, se recomienda usar cascos.
